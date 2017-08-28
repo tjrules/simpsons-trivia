@@ -90,11 +90,10 @@ Project 1 will be assessed using the following standards and evaluation metrics 
 
 |  Evaluation Metric | Incomplete (0) | Did not meet expectations (1) | Meets Expectations  (2) |   
 |---|---|---|---|
-|--- PROJECT DETAILS MAX (8) ---| 
+|--- PROJECT DETAILS MAX (6) ---| 
 |Student created and got approval for a wireframe for a game page
 |Student effectively communicates work, progress, availability and expectations to instructional team and classmates
 |Student organizes project materials in a structured, easily navigable manner
-|Student responds to constructive feedback and implements suggested improvements
 |--- PRESENTATION MAX (6) ---| 
 |Presentation effectively describes what features will be included 
 |Presentation effectively describes constraints to work with (e.g. technological, timing, content, etc.)
