@@ -110,6 +110,6 @@ Project 1 will be assessed using the following standards and evaluation metrics 
 |--- REPO  MAX (4)---|
 |Student provided a link to a repository on GitHub that includes frequent commits dating back to the very beginning of the project
 |Student included a readme file with explanations of the technologies used, the approach taken, installation instructions, unsolved problems, etc.
-|--- **TOTAL POSSIBLE POINTS** MAX (32) ---| 
+|--- **TOTAL POSSIBLE POINTS** MAX (30) ---| 
 
 
