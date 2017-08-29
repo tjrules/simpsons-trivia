@@ -6,11 +6,11 @@ Use this section to describe your final project and perhaps any links to relevan
 
 ## Installation
 
-Use this section to include all steps needed to download your project including installing dependencies and seeding your a database 
+Use this section to include all steps needed to download your project including installing dependencies and seeding your a database.
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matix
+Include a full list of features that have been prioritized based on the `Time and Importance` Matix.  
 
 ## Wireframes
 
@@ -20,7 +20,17 @@ Include images of the following wireframes:
 - All supporting pages
 - The below routes\controllers\models\views table
 
+## User Stories
+
+Include user stories regarding how users will interact with the app such as when the page loads how will the user migrate through the page.  
+
+## Project Management
+
+Use Github's `Project Managment Tab`  to list all the task that need to be completed.  At a minimum the tasks should be categroized into one of the four columns:  ToDo, InProgress, Complete, Issue
+
 ## Routes..Controllers..Models..Views..Oh My...
+
+Use this section to document the routes and supporting functionality of the app. 
 
 | Route | Controller | Model | Does | Result | View | Exits |
 | --- | :---: |  :---: | :---: | :---: | :---: | :---: |
