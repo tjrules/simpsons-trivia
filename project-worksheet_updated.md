@@ -2,7 +2,11 @@
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality
+Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+
+## Installation
+
+Use this section to include all steps needed to download your project including installing dependencies and seeding your a database 
 
 ## Priority Matrix
 
