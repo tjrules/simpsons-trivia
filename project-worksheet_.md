@@ -6,11 +6,21 @@ Use this section to describe your final project and perhaps any links to relevan
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the importance and time matix
+Include a full list of features that have been prioritized based on the `Time and Importance` Matix
 
 ## Wireframes
 
-Include images of your wireframes. 
+Include images of the following wireframes:
+
+- Landing Page
+- All supporting pages
+- The below routes\controllers\models\views table
+
+## Routes..Controllers..Models..Views..Oh My...
+
+| Route | Controller | Model | Does | Result | View | Exits |
+| --- | :---: |  :---: | :---: | :---: | :---: | :---: |
+| /quotes | GET | Index | findAll | Selects *  | [{quotes}] | ShowQuotes | redirect(/quotes) 
 
 ## Functional Components
 
