@@ -44,6 +44,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | :---: |
 | add a todo | H | 1hrs |  |  |
 
+## Code Snippet
+
+Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  
+
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
 
