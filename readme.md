@@ -20,13 +20,12 @@ Show us what you've got!
 Your app must:
 
 - Your game should have two pages: a landing page and a game page
-- Use only jQuery for DOM manipulation
-- Deploy your game online to GitHub pages
-- Include at least one CSS transition fired by a DOM event
-- Create a landing page that includes a form
-- Use your form to collect information about the user and display that information on the game page; be sure to add things to your form, if needed, like buttons, sliders, checkboxes, radio buttons, etc.
+- Use only **jQuery** for DOM manipulation
+- Deploy your game online to both **CodePen** and **GitHub pages**
+- Include at least one **CSS transition** fired by a DOM event
+- Include at least one **form** which collects information about the user and display that information on the game page; be sure to add things to your form, if needed, like buttons, sliders, checkboxes, radio buttons, etc.
 - Style your form, landing page, and game page with class-based CSS (no inline styles)
-- Include a media query for a tablet to make your pages responsive
+- Include a **media query** for a tablet to make your pages responsive
 - Use flexbox to lay out your game
 - **Create and get approval for a wireframe for your game page**
 - Comment your code appropriately
@@ -35,10 +34,9 @@ Your app must:
 
 Your presentation must:
 
-- Be at least 5 slides
-- Use easy-to-understand language and avoid too much "insider" terminology
+- First demo the functionality of the game...show us it works and how to play it. 
+- Be at least 3 slides...and no more than 3...
 - Include at least one wireframe that shows your game page
-- Include a screenshot of the existing landing page you've replicated
 - Answer the following questions:
 	- What features did you include?
 	- Were there any constraints you had to work with? (e.g. technological, timing, content, etc.)
@@ -64,10 +62,11 @@ If you're creating a two (or more)-player game, you MUST:
 
 For the app:
 
-* A working game, built by you, hosted on [GitHub Pages](https://pages.github.com/)
+* A working game, built by you, hosted on [GitHub Pages](https://pages.github.com/) and CodePen
 * A link to your hosted working game in the URL section of your GitHub repo
 * A git repository hosted on GitHub, with a link to your hosted game, and frequent commits dating back to the very beginning of the project
 * A readme.md file with explanations of the technologies used, wireframes the approach taken, installation instructions, unsolved problems, etc.
+* Complete utilization of the [project-worksheet]()
 
 For the presentation:
 
@@ -88,12 +87,23 @@ For the presentation:
 
 #### Potential Project Ideas
 
-##### Blackjack
-Make a one player game where people down on their luck can lose all their money by guessing which card the computer will deal next!
+##### Beginner
+- Simon 
+- War - Two Player
+- Connect 4 - Two Player
+- Self-scoring Trivia
+- Blackjack
 
-##### Self-scoring Trivia
-Test your wits & knowledge with whatever-the-heck you know about (so you can actually win). Guess answers, have the computer tell you how right you are!
+##### Medium
+- Text Adventure
+- Sorry! - Multiple Players
+- Checkers - Two Players
+- Yahtzee - Two Players
 
+##### Advanced
+- Battleship - Two Player
+- Black Jack - with Computer AI
+- Missile Command - Level Progression
 ---
 
 ### Useful Resources

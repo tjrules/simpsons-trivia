@@ -1,8 +1,36 @@
 # Project Overview
 
+## Project Schedule
+
+This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
+
+You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
+
+|  Day | Deliverable | Approval From Squad Lead
+|---|---| ---|
+|Day 1: Wed| Game Idea|
+|Day 2: Thur| Wireframes and Priority Matrix|
+|Day 3: Fri| Pseudocode\actual code|
+|Day 4: Sat| Basic Clickable Model |
+|Day 5: Sun| Working Prototype |
+|Day 6: Mon| Game Completed / Slides |
+|Day 7: Tue| Project Presentations |
+
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality
+Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+
+## Priority Matrix
+
+Include a full list of features that have been prioritized based on the `Time and Importance` Matix.  
+
+## MVP 
+
+Include the full list of features that will be part of your MVP 
+
+## POST MVP
+
+Include the full list of features that you are considering for POST MVP
 
 ## Wireframes
 
@@ -44,6 +72,10 @@ Helper functions should be generic enought that they can be reused in other appl
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
+
+## Code Snippet
+
+Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  
 
 ## jQuery Discoveries
  Use this section to list some, but not all, of the jQuery methods and\or functionality discovered while working on this project.

@@ -31,9 +31,6 @@ Project 1 will be assessed using the following standards and evaluation metrics 
 
 #### Evaluation Metrics
 
-- Presentation effectively describes what features will be included 
-- Presentation effectively describes constraints to work with (e.g. technological, timing, content, etc.)
-- Presentation uses easy-to-understand language 
 - Presentation includes a wireframe for the game page and an existing landing page from the web to build from 
 - Student work renders a game in the browser 
 - Student work includes only jQuery for DOM manipulation 
@@ -44,16 +41,12 @@ Project 1 will be assessed using the following standards and evaluation metrics 
 - Student work includes a media query for a tablet to make the game responsive 
 - Student uses flexbox to lay out game
 
-
-
 ---
 
 ## QUALITY AND CONSISTENCY
 **Meets Expectations**: HTML, CSS, and JavaScript adheres to the provided style guides, is commented appropriately, and performs well.
 
 #### Evaluation Metrics
-
-
 
 - Code adheres to the [AirBnB style guide](https://github.com/airbnb/javascript) for writing JavaScript 
 - Code adheres to the [Google style guide](https://google.github.io/styleguide/htmlcssguide.xml) for writing HTML/CSS 
@@ -88,8 +81,8 @@ Project 1 will be assessed using the following standards and evaluation metrics 
 
 
 
-|  Evaluation Metric | Incomplete (0) | Did not meet expectations (1) | Meets Expectations  (2) |   
-|---|---|---|---|
+|  Evaluation Metric | Incomplete (0) | Did not meet expectations (1) | Meets Expectations  (2) |  Exceeds Expectations (3) 
+|---|---|---|---|---|
 |Student is present both mentally and physically in class and/or during team meetings
 |Student effectively communicates work, progress, availability and expectations to instructional team and classmates
 |Student meets all major required deadlines for deliverables
@@ -120,4 +113,4 @@ Project 1 will be assessed using the following standards and evaluation metrics 
 |Student included a readme file with explanations of the technologies used, the approach taken, installation instructions, unsolved problems, etc.
 |Student created and got approval for a wireframe for a game page
 |---
-|**TOTAL POSSIBLE POINTS** (40)
+|**TOTAL POSSIBLE POINTS** (3) 
