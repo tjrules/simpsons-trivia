@@ -66,7 +66,7 @@ For the app:
 * A link to your hosted working game in the URL section of your GitHub repo
 * A git repository hosted on GitHub, with a link to your hosted game, and frequent commits dating back to the very beginning of the project
 * A readme.md file with explanations of the technologies used, wireframes the approach taken, installation instructions, unsolved problems, etc.
-* Complete utilization of the [project-worksheet]()
+* Complete utilization of the [project-worksheet](https://git.generalassemb.ly/wdi-nyc-narwhal/PROJECT-1-PROMPT/blob/master/project-worksheet.md)
 
 For the presentation:
 
