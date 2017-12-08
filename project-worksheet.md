@@ -30,11 +30,11 @@ Finish game elements
 ## MVP 
 
 - Start button with player name form
-#Question prompt, displays question at top with four answer buttons,
-#Player can select right or wrong answers
-#Player score gets added
-#Finish game tells you whether you win or lose, 
-#reset game button
+- Question prompt, displays question at top with four answer buttons,
+- Player can select right or wrong answers
+- Player score gets added
+- Finish game tells you whether you win or lose, 
+- reset game button
 
 ## POST MVP
 
