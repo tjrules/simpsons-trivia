@@ -3,20 +3,101 @@
 	src: url(simpsonfont/simpsonfont_demo.otf);
 }
 body {
-	font-family: simpsons;
-	background: url(pics/springfield.jpg);
+	font-family: "simpsons";
+	background: url(http://res.cloudinary.com/dftzmialt/image/upload/v1512673427/springfield_fgu8jt.jpg);
 	background-repeat: no-repeat;
 	background-size: auto;
 	z-index: 0;
 }
 
+div {
+	border: 5px solid black;
+}
+
+p {
+  font-family: inherit;
+  color:white;
+  font-size: 30px;
+}
 .wrapper {
 	margin: 10% auto;
-	max-width: 75%;
-	max-height: 75%;
+	width: 75%;
+	height: 75%;
 	background-color: gray;
+  justify-content: center;
 	z-index: 1;
 	text-align: center;
-	border: 3px solid white;
-	border-radius: 10%;
+	border: 5px solid white;
+	border-radius: 20%;
+}
+/* Flex-items */
+.start {
+font-size: 25px;
+  
+}
+
+legend{
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+input{
+  
+}
+.button {
+  font-family: inherit;
+  background-Color: yellow;
+  font-weight: 800;
+  font-size: 24px;
+  padding: 5px;
+  width: 50%;
+  border-radius: 10px;
+  border:2px solid white;
+}
+
+.question-wrapper {
+ display:flex;
+ font-size:25px;
+ font-weight: 600;
+ padding: 25px;
+ justify-content: center;
+ display:flex;
+ flex-direction: column;
+ 
+}
+
+.answer {
+  padding: 10px;
+  
+}
+
+.redo {
+
+}
+.win {
+  color:yellow;
+  font-size: 30px;
+  list-spacing: .3em;
+  line-height: 2em;
+   
+  }
+  
+.lose {
+    font-size: 30px;
+    color: yellow;
+}
+
+.question {
+  color: yellow;
+  letter-spacing: .2em;
+ font-size:25px;
+ font-weight: 700;
+ padding: 5% 0 5% 0;
+}
+
+.button:hover {
+  background-color: lightblue;
+}
+
+.button:active {
+  background-color:green;
 }
