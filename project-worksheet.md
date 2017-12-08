@@ -29,7 +29,7 @@ Finish game elements
 
 ## MVP 
 
-#Start button with player name form
+- Start button with player name form
 #Question prompt, displays question at top with four answer buttons,
 #Player can select right or wrong answers
 #Player score gets added
