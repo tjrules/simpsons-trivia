@@ -10,10 +10,6 @@ body {
 	z-index: 0;
 }
 
-div {
-	border: 5px solid black;
-}
-
 p {
   font-family: inherit;
   color:white;
@@ -28,20 +24,24 @@ p {
 	z-index: 1;
 	text-align: center;
 	border: 5px solid white;
-	border-radius: 20%;
+	border-radius: 10%;
 }
 /* Flex-items */
 .start {
-font-size: 25px;
-  
+	font-size: 25px;
+  display: none ;
+  padding-bottom: 25px;
 }
 
 legend{
-  font-size: 25px;
-  padding-bottom: 15px;
+	color: yellow;
+	font-size: 10px 20px 20px 20px;
+  padding: 20px;
+	letter-spacing: .1jem;
 }
 input{
-  
+  font-size: 20px;
+
 }
 .button {
   font-family: inherit;
@@ -49,25 +49,27 @@ input{
   font-weight: 800;
   font-size: 24px;
   padding: 5px;
-  width: 50%;
+	margin: 10px;
+	width: 50%;
   border-radius: 10px;
   border:2px solid white;
 }
 
 .question-wrapper {
+
  display:flex;
  font-size:25px;
  font-weight: 600;
  padding: 25px;
  justify-content: center;
- display:flex;
+
  flex-direction: column;
- 
+
 }
 
 .answer {
   padding: 10px;
-  
+
 }
 
 .redo {
@@ -78,9 +80,9 @@ input{
   font-size: 30px;
   list-spacing: .3em;
   line-height: 2em;
-   
+
   }
-  
+
 .lose {
     font-size: 30px;
     color: yellow;
@@ -100,4 +102,18 @@ input{
 
 .button:active {
   background-color:green;
+}
+
+.question, .question-wrapper {
+  display:;
+}
+
+.players{
+	color: yellow;
+	display:none;
+	padding: 10px;
+}
+
+.hide-button {
+	display:none;
 }
