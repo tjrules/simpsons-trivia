@@ -3,11 +3,12 @@
 	src: url(simpsonfont/simpsonfont_demo.otf);
 }
 body {
-	font-family: "simpsons";
+	font-family: "simpsons", georgia, serif;
 	background: url(http://res.cloudinary.com/dftzmialt/image/upload/v1512673427/springfield_fgu8jt.jpg);
 	background-repeat: no-repeat;
 	background-size: auto;
 	z-index: 0;
+	position: static;
 }
 
 p {
@@ -15,6 +16,17 @@ p {
   color:white;
   font-size: 30px;
 }
+legend{
+	color: yellow;
+	font-size: 10px 20px 20px 20px;
+  padding: 20px;
+	letter-spacing: .1jem;
+}
+input{
+  font-size: 20px;
+
+}
+
 .wrapper {
 	margin: 10% auto;
 	width: 75%;
@@ -29,20 +41,11 @@ p {
 /* Flex-items */
 .start {
 	font-size: 25px;
-  display: none ;
+  display:;
   padding-bottom: 25px;
 }
 
-legend{
-	color: yellow;
-	font-size: 10px 20px 20px 20px;
-  padding: 20px;
-	letter-spacing: .1jem;
-}
-input{
-  font-size: 20px;
 
-}
 .button {
   font-family: inherit;
   background-Color: yellow;
@@ -78,7 +81,7 @@ input{
 .win {
   color:yellow;
   font-size: 30px;
-  list-spacing: .3em;
+  line-spacing: .3em;
   line-height: 2em;
 
   }
@@ -101,7 +104,7 @@ input{
 }
 
 .button:active {
-  background-color:green;
+  background-color:red;
 }
 
 .question, .question-wrapper {
@@ -114,6 +117,29 @@ input{
 	padding: 10px;
 }
 
-.hide-button {
+
+.correct-answer:active {
+	background-color: green;
+}
+
+#start-game {
+	display: none;
+}
+#question-1{
 	display:none;
+}
+#question-2{
+	display:none ;
+}
+#question-3{
+	display:none ;
+}
+#next{
+	display: none;
+}
+#finish-win{
+	display:none ;
+}
+#finish-lose{
+display:none ;
 }

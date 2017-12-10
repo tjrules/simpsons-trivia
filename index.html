@@ -1,39 +1,85 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+	<meta charset=utf-8>
 	<title>The Simpon's Trivia Game </title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script
-  src="https://code.jquery.com/jquery-1.12.4.min.js"
-  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-  crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 	<script src="main.js"></script>
 </head>
+
 <body>
-<div class='wrapper' id='wrapper'>
-  <!-- Start game-->
-	<div class='start' id='start'>
-		<legend class='' id='hello'>Hello Simpson's Lover: What is your Name?</legend>
-		<input class='' type="text" name="" id='name-input'>
-		<button class='button' id='submit'>Submit</button>
+
+	<!-- Game Wrapper -->
+	<div class='wrapper' id='wrapper'>
+
+		<!-- Start game-->
+		<div class='start' id='start'>
+			<legend class='' id='hello'>Hello Simpson's Lover: What is your Name?</legend>
+			<input class='' type="text" name="" id='name-input'>
+			<button class='button' id='submit'>Submit</button>
 			<div class="players">Welcome</div>
-			<button class="button hide-button" id="#start-game">Start Game</button>
-	</div>
+			<button class="button hide-button" id="start-game">Start Game</button>
+		</div>
+
+		<!-- Question Wrapper -->
+		<div class="question-wrapper" id='question-wrapper'>
+
+			<!-- Question 1 -->
+			<div class="question" id='question-1'>What is Homer's catchphrase?
+				<div class="answer" id='ans'>
+					<button class='button answer-button wrong-answer' id='answer-1'>Eat My Shorts</button>
+					<button class='button answer-button correct-answer' id='correct-1'>D'oh</button>
+					<button class='button answer-button wrong-answer' id='answer-3'>Aye Caramba</button>
+					<button class='button answer-button wrong-answer' id='answer-4'>That's Illogical</button>
+				</div>
+			</div>
+
+			<!-- Question 2-->
+			<div class="question" id='question-2'>Who is Bart's nemesis?
+				<div class="answer" id='ans'>
+					<button class='button answer-button wrong-answer' id='answer-1'>Sideshow Mel</button>
+					<button class='button answer-button wrong-answer' id='answer-2'>Nelson Muntz</button>
+					<button class='button answer-button wrong-answer' id='answer-3'>Radioactive Man</button>
+					<button class='button answer-button correct-answer' id='correct-2'>Sideshow Bob</button>
+				</div>
+			</div>
+
+			<!-- Question 3 -->
+			<div class="question" id='question-3'>Which one of these is a writer for the Simpsons TV Show?
+				<div class="answer" id='ans'>
+					<button class='button answer-button wrong-answer' id='answer-1'>Larry David</button>
+					<button class='button answer-button wrong-answer' id='answer-2'>Larry Charles</button>
+					<button class='button answer-button correct-answer' id='correct-3'>Dan Castellanata</button>
+					<button class='button answer-button wrong-answer' id='answer-4'>Hank Azaria</button>
+				</div>
+			</div>
+			<button class='next button' id='next'>Next</button>
+		</div>
+
+		<!-- Ending for the winner   -->
+
+		<div class="finish-win" id='finish-win'>
+			<div class="win" id='win'>Congratulations!!! <br>You are as smart as....</div>
+				<div> <iframe src="https://giphy.com/embed/3o6MbkWQI5OazCn8cM" width="480" height="362" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+					<p>Lisa<a href="https://giphy.com/gifs/season-16-the-simpsons-16x3-3o6MbkWQI5OazCn8cM"></a></p>
+					</div>
+					<button class='button restart' id='restart'>Try Again</button>
+		</div>
+			<!-- Finish for the loser  -->
+
+			<div class="finish-lose" id='finish-lose'>
+				<div class='lose' id='lose'>Sorry Loser!!! <br>You are as dumb as....</div>
+				<div class='gif-ralph'> <iframe src="https://giphy.com/embed/avPzMKapzB8D6" width="480" height="353" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+					<p><a href="https://giphy.com/gifs/the-simpsons-ralph-wiggum-flute-avPzMKapzB8D6"></a>Ralph</p>
+					<button class='button restart' id='restart'>Try Again</button>
+				</div>
+
+			</div>
 
 
-<!-- Question Wrapper -->
-
- <div class="question" id='question'>This is a question</div>
-  <div class="question-wrapper" id='question-wrapper'>
-      <div class="answer" id='ans'>
-        <!-- <button class='button answer-button' id='answer-1'>Answer1</button>
-        <button class='button answer-button' id='answer-2'>Answer2</button>
-  			<button class='button answer-button' id='answer-3'>Answer3</button>
-  			<button class='button answer-button' id='answer-4'>Answer4</button>
-      </div> -->
-  </div>
-	</div>
-</div>
+		</div>
 </body>
 
 
@@ -82,4 +128,5 @@
 	</div>
     <button class='button'>Try Again Smarty</button> -->
 </body>
+
 </html>
