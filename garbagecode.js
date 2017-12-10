@@ -202,24 +202,67 @@
  //     body.onload()
  //     }
  //   }
+ <!-- Start prompt html
+ <div class='start'>&nbsp<form>
+ 		<legend>Hello Simpson's Lover: What is your Name?</legend>
+ 		<input type="name" name="">
+ 		<input class ='button' type="submit" name="">
+ 	</form>&nbsp
+ 	</div> -->
 
 
- //    class Questions {
- //   constructor(question, rightAnswer, wrongAnswer, correct ){
- //     this.question = question,
- //     this.rightAnswer = rightAnswer,
- //     this.wrongAnswer = wrongAnswer,
- //     // this.difficulty = 'high',
- //     this.correct = false;
- //     }
 
- //   isCorrect() {
- //     this.correct = true;
+ <!-- Question Styling  <div class="question">What is Homer's catchphrase?</div>
+ 	  <div class="question-wrapper">
 
- //   }
- //     }
- //   let question = [
- //       new Questions("What is Homer's catchphrase?", "D'oh",["Eat My Shorts","Aye Caramba", "That's Illogical"]),
- //       new Questions("Who is Bart's nemesis?", "Sideshow Bob",["Sideshow Mel","Bumblebee Man", "Nelson Muntz"]),
- //       new Questions("What is the cause of and solution to all of life's problems according to Homer?", "Beer",["Pretzels","Doughnuts", "Marge"])
- //   ];
+       <div class="answer">
+         <button class='button' type='submit'>D'oh</button>
+       </div>
+       <div class="answer">
+         <button class='button' type='submit'>Eat My Shorts</button>
+       </div>
+
+
+       <div class="answer">
+         <button class='button' type='submit'>Aye Caramba</button>
+       </div>
+       <div class="answer">
+         <button class='button' type='submit'>D'oh</button>
+       </div>
+         </div>
+ 	</div> -->
+
+
+
+ <!-- Ending for the winner  <div class="finish-win">
+ 	 <div class="win" id='win'>Congratulations!!! <br>You are as smart as....</div>
+   <div> <iframe src="https://giphy.com/embed/3o6MbkWQI5OazCn8cM" width="480" height="362" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>Lisa<a href="https://giphy.com/gifs/season-16-the-simpsons-16x3-3o6MbkWQI5OazCn8cM"></a></p><button class='button'>Try Again Smarty</button>
+ 	</div> -->
+
+
+
+ <!--Finish for the loser <div class="finish-lose">
+ 	 <div class='lose' id='lose'>Sorry Loser!!! <br>You are as dumb as....</div>
+   <div class='gif-ralph'> <iframe src="https://giphy.com/embed/avPzMKapzB8D6" width="480" height="353" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/the-simpsons-ralph-wiggum-flute-avPzMKapzB8D6"></a>Ralph</p>
+ 	</div>
+     <button class='button'>Try Again Smarty</button> -->
+
+    class Questions {
+   constructor(question, rightAnswer, wrongAnswer, correct ){
+     this.question = question,
+     this.rightAnswer = rightAnswer,
+     this.wrongAnswer = wrongAnswer,
+     // this.difficulty = 'high',
+     this.correct = false;
+     }
+
+   isCorrect() {
+     this.correct = true;
+
+   }
+     }
+   let question = [
+       new Questions("What is Homer's catchphrase?", "D'oh",["Eat My Shorts","Aye Caramba", "That's Illogical"]),
+       new Questions("Who is Bart's nemesis?", "Sideshow Bob",["Sideshow Mel","Bumblebee Man", "Nelson Muntz"]),
+       new Questions("What is the cause of and solution to all of life's problems according to Homer?", "Beer",["Pretzels","Doughnuts", "Marge"])
+   ];

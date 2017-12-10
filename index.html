@@ -10,7 +10,14 @@
 </head>
 
 <body>
-
+	<!-- <audio controls>
+	  <source src="audio/theme.mp3" type="audio/mpeg">
+	  <source src="audio/lisa.wav" type="audio/wav">
+			<source src="audio/ralph.wav" type="audio/wav">
+				<source src="audio/sexy-flanders.wav" type="audio/wav">
+					<source src="audio/woohoo.wav" type="audio/wav">
+	Your browser does not support the audio element.
+	</audio> -->
 	<!-- Game Wrapper -->
 	<div class='wrapper' id='wrapper'>
 
@@ -34,6 +41,7 @@
 					<button class='button answer-button wrong-answer' id='answer-3'>Aye Caramba</button>
 					<button class='button answer-button wrong-answer' id='answer-4'>That's Illogical</button>
 				</div>
+				<button class='next button' id='next-1'>Next</button>
 			</div>
 
 			<!-- Question 2-->
@@ -44,6 +52,7 @@
 					<button class='button answer-button wrong-answer' id='answer-3'>Radioactive Man</button>
 					<button class='button answer-button correct-answer' id='correct-2'>Sideshow Bob</button>
 				</div>
+				<button class='next button' id='next-2'>Next</button>
 			</div>
 
 			<!-- Question 3 -->
@@ -54,79 +63,39 @@
 					<button class='button answer-button correct-answer' id='correct-3'>Dan Castellanata</button>
 					<button class='button answer-button wrong-answer' id='answer-4'>Hank Azaria</button>
 				</div>
+				<button class='next button' id='finish-1'>Calculate Score</button>
+				<br>
+				<div id='finish-3'><button class='next button' id='finish-2'>Calculate Score</button></div>
 			</div>
-			<button class='next button' id='next'>Next</button>
+
 		</div>
 
 		<!-- Ending for the winner   -->
 
 		<div class="finish-win" id='finish-win'>
 			<div class="win" id='win'>Congratulations!!! <br>You are as smart as....</div>
-				<div> <iframe src="https://giphy.com/embed/3o6MbkWQI5OazCn8cM" width="480" height="362" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-					<p>Lisa<a href="https://giphy.com/gifs/season-16-the-simpsons-16x3-3o6MbkWQI5OazCn8cM"></a></p>
-					</div>
-					<button class='button restart' id='restart'>Try Again</button>
+			<div> <iframe src="https://giphy.com/embed/3o6MbkWQI5OazCn8cM" width="480" height="362" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+				<p>Lisa<a href="https://giphy.com/gifs/season-16-the-simpsons-16x3-3o6MbkWQI5OazCn8cM"></a></p>
+			</div>
+			<button class='button restart' id='restart-1'>Try Again</button>
 		</div>
-			<!-- Finish for the loser  -->
+		<!-- Finish for the loser  -->
 
-			<div class="finish-lose" id='finish-lose'>
-				<div class='lose' id='lose'>Sorry Loser!!! <br>You are as dumb as....</div>
-				<div class='gif-ralph'> <iframe src="https://giphy.com/embed/avPzMKapzB8D6" width="480" height="353" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-					<p><a href="https://giphy.com/gifs/the-simpsons-ralph-wiggum-flute-avPzMKapzB8D6"></a>Ralph</p>
-					<button class='button restart' id='restart'>Try Again</button>
-				</div>
-
+		<div class="finish-lose" id='finish-lose'>
+			<div class='lose' id='lose'>Sorry Loser!!! <br>You are as dumb as....</div>
+			<div class='gif-ralph'> <iframe src="https://giphy.com/embed/avPzMKapzB8D6" width="480" height="353" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+				<p><a href="https://giphy.com/gifs/the-simpsons-ralph-wiggum-flute-avPzMKapzB8D6"></a>Ralph</p>
+				<button class='button restart' id='restart-2'>Try Again</button>
 			</div>
 
-
 		</div>
+
+
+	</div>
 </body>
 
 
-<!-- Start prompt html
-<div class='start'>&nbsp<form>
-		<legend>Hello Simpson's Lover: What is your Name?</legend>
-		<input type="name" name="">
-		<input class ='button' type="submit" name="">
-	</form>&nbsp
-	</div> -->
 
-
-
-<!-- Question Styling  <div class="question">What is Homer's catchphrase?</div>
-	  <div class="question-wrapper">
-
-      <div class="answer">
-        <button class='button' type='submit'>D'oh</button>
-      </div>
-      <div class="answer">
-        <button class='button' type='submit'>Eat My Shorts</button>
-      </div>
-
-
-      <div class="answer">
-        <button class='button' type='submit'>Aye Caramba</button>
-      </div>
-      <div class="answer">
-        <button class='button' type='submit'>D'oh</button>
-      </div>
-        </div>
-	</div> -->
-
-
-
-<!-- Ending for the winner  <div class="finish-win">
-	 <div class="win" id='win'>Congratulations!!! <br>You are as smart as....</div>
-  <div> <iframe src="https://giphy.com/embed/3o6MbkWQI5OazCn8cM" width="480" height="362" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>Lisa<a href="https://giphy.com/gifs/season-16-the-simpsons-16x3-3o6MbkWQI5OazCn8cM"></a></p><button class='button'>Try Again Smarty</button>
-	</div> -->
-
-
-
-<!--Finish for the loser <div class="finish-lose">
-	 <div class='lose' id='lose'>Sorry Loser!!! <br>You are as dumb as....</div>
-  <div class='gif-ralph'> <iframe src="https://giphy.com/embed/avPzMKapzB8D6" width="480" height="353" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/the-simpsons-ralph-wiggum-flute-avPzMKapzB8D6"></a>Ralph</p>
-	</div>
-    <button class='button'>Try Again Smarty</button> -->
 </body>
 
 </html>

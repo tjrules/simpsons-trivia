@@ -1,50 +1,54 @@
 @font-face {
-	font-family: simpsons;
-	src: url(simpsonfont/simpsonfont_demo.otf);
+  font-family: simpsons;
+  src: url(simpsonfont/simpsonfont_demo.otf);
 }
+
 body {
-	font-family: "simpsons", georgia, serif;
-	background: url(http://res.cloudinary.com/dftzmialt/image/upload/v1512673427/springfield_fgu8jt.jpg);
-	background-repeat: no-repeat;
-	background-size: auto;
-	z-index: 0;
-	position: static;
+  font-family: "simpsons", georgia, serif;
+  background: url(http://res.cloudinary.com/dftzmialt/image/upload/v1512673427/springfield_fgu8jt.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  z-index: 0;
+  position: static;
+  word-spacing: .5em;
 }
 
 p {
   font-family: inherit;
-  color:white;
+  color: white;
   font-size: 30px;
 }
-legend{
-	color: yellow;
-	font-size: 10px 20px 20px 20px;
-  padding: 20px;
-	letter-spacing: .1jem;
-}
-input{
-  font-size: 20px;
 
+legend {
+  color: yellow;
+  font-size: 10px 20px 20px 20px;
+  padding: 20px;
+  letter-spacing: .1jem;
+}
+
+input {
+  font-size: 20px;
 }
 
 .wrapper {
-	margin: 10% auto;
-	width: 75%;
-	height: 75%;
-	background-color: gray;
+  margin: 10% auto;
+  width: 75%;
+  height: 75%;
+  background-color: gray;
   justify-content: center;
-	z-index: 1;
-	text-align: center;
-	border: 5px solid white;
-	border-radius: 10%;
-}
-/* Flex-items */
-.start {
-	font-size: 25px;
-  display:;
-  padding-bottom: 25px;
+  z-index: 1;
+  text-align: center;
+  border: 5px solid white;
+  border-radius: 10%;
 }
 
+/* Flex-items */
+
+.start {
+  font-size: 25px;
+  display: ;
+  padding-bottom: 25px;
+}
 
 .button {
   font-family: inherit;
@@ -52,94 +56,116 @@ input{
   font-weight: 800;
   font-size: 24px;
   padding: 5px;
-	margin: 10px;
-	width: 50%;
+  margin: 10px;
+  width: 50%;
   border-radius: 10px;
-  border:2px solid white;
+  border: 2px solid white;
 }
 
 .question-wrapper {
-
- display:flex;
- font-size:25px;
- font-weight: 600;
- padding: 25px;
- justify-content: center;
-
- flex-direction: column;
-
+  display: flex;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 25px;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .answer {
   padding: 10px;
-
 }
 
-.redo {
+.redo {}
 
-}
 .win {
-  color:yellow;
+  color: yellow;
   font-size: 30px;
   line-spacing: .3em;
   line-height: 2em;
-
-  }
+}
 
 .lose {
-    font-size: 30px;
-    color: yellow;
+  font-size: 30px;
+  color: yellow;
 }
 
 .question {
   color: yellow;
   letter-spacing: .2em;
- font-size:25px;
- font-weight: 700;
- padding: 5% 0 5% 0;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 5% 0 5% 0;
 }
 
 .button:hover {
   background-color: lightblue;
 }
 
-.button:active {
-  background-color:red;
-}
+/*.button:active {
+  background-color: red;
+}*/
 
 .question, .question-wrapper {
-  display:;
+  display: ;
 }
 
-.players{
-	color: yellow;
-	display:none;
-	padding: 10px;
+.players {
+  color: yellow;
+  display: none;
+  padding: 10px;
 }
 
-
-.correct-answer:active {
-	background-color: green;
-}
+/*.correct-answer:active {
+  background-color: green;
+}*/
 
 #start-game {
+  display: none;
+}
+
+#question-1 {
+  display: none;
+}
+
+#question-2 {
+  display: none;
+}
+
+#question-3 {
+  display: none;
+}
+
+#next-1 {
+  display: none;
+}
+
+#next-2 {
+  display: none;
+}
+
+#finish-1 {
+  display: none;
+}
+
+#finish-2 {
+  display: none;
+}
+
+#finish-win {
+  display: none;
+}
+
+#finish-lose {
+  display: none;
+}
+
+#restart-1{
+
+}
+#restart-2{
+
+}
+
+#finish-3{
 	display: none;
-}
-#question-1{
-	display:none;
-}
-#question-2{
-	display:none ;
-}
-#question-3{
-	display:none ;
-}
-#next{
-	display: none;
-}
-#finish-win{
-	display:none ;
-}
-#finish-lose{
-display:none ;
 }
