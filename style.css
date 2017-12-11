@@ -1,9 +1,9 @@
 @font-face {
   font-family: simpsons;
-  src: url(simpsonfont/simpsonfont_demo.otf);
+  src: url(simpsonsfont/simpsonfont.ttf);
 }
 audio {
-display:;  
+display:;
 }
 
 body {
@@ -126,9 +126,10 @@ input {
   display: none;
 }
 
-#question-1 {
+#question-wrapper{
   display: none;
 }
+
 
 #question-2 {
   display: none;

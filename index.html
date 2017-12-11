@@ -10,14 +10,14 @@
 </head>
 
 <body>
-	<audio controls>
+	<!-- <audio controls>
 	  <source id='theme' src="audio/theme.mp3" type="audio/mpeg">
 	  <source id='lisa' src="audio/lisa.wav" type="audio/wav">
 			<source id='ralph' src="audio/ralph.wav" type="audio/wav">
 				<source id='flanders' src="audio/sexy-flanders.wav" type="audio/wav">
 					<source id='woo' src="audio/woohoo.wav" type="audio/wav">
 	Your browser does not support the audio element.
-	</audio>
+	</audio> -->
 	<!-- Game Wrapper -->
 	<div class='wrapper' id='wrapper'>
 
@@ -27,25 +27,27 @@
 			<input class='' type="text" name="" id='name-input'>
 			<button class='button' id='submit'>Submit</button>
 			<div class="players">Welcome</div>
-			<button src='audio/lisa.wav' type='audio/wav'  class="button hide-button" id="start-game">Start Game</button>
+			<button class="button hide-button" id="start-game">Start Game</button>
 		</div>
 
 		<!-- Question Wrapper -->
 		<div class="question-wrapper" id='question-wrapper'>
 
 			<!-- Question 1 -->
-			<div class="question" id='question-1'>What is Homer's catchphrase?
-				<div class="answer" id='ans'>
-					<button class='button answer-button wrong-answer' id='answer-1'>Eat My Shorts</button>
-					<button class='button answer-button correct-answer' id='correct-1'>D'oh</button>
-					<button class='button answer-button wrong-answer' id='answer-3'>Aye Caramba</button>
-					<button class='button answer-button wrong-answer' id='answer-4'>That's Illogical</button>
+			<div class="question" id='question-box'>Question </div>
+		<!-- answer wrapper -->
+				<div class="answer" id='answer-wrapper'>
+			<!-- answer buttons -->
+					<button class='button answer-button wrong-answer' id='answer-1'>Seven</button>
+					<button class='button answer-button correct-answer' id='answer-2'>One</button>
+					<button class='button answer-button wrong-answer' id='answer-3'>Two</button>
+					<button class='button answer-button wrong-answer' id='answer-4'>Three</button>
 				</div>
 				<button class='next button' id='next-1'>Next</button>
 			</div>
 
 			<!-- Question 2-->
-			<div class="question" id='question-2'>Who is Bart's nemesis?
+			<!-- <div class="question" id='question-2'>Who is Bart's nemesis?
 				<div class="answer" id='ans'>
 					<button class='button answer-button wrong-answer' id='answer-1'>Sideshow Mel</button>
 					<button class='button answer-button wrong-answer' id='answer-2'>Nelson Muntz</button>
@@ -53,10 +55,10 @@
 					<button class='button answer-button correct-answer' id='correct-2'>Sideshow Bob</button>
 				</div>
 				<button class='next button' id='next-2'>Next</button>
-			</div>
+			</div> -->
 
 			<!-- Question 3 -->
-			<div class="question" id='question-3'>Which one of these is a writer for the Simpsons TV Show?
+			<!-- <div class="question" id='question-3'>Which one of these is a writer for the Simpsons TV Show?
 				<div class="answer" id='ans'>
 					<button class='button answer-button wrong-answer' id='answer-1'>Larry David</button>
 					<button class='button answer-button wrong-answer' id='answer-2'>Larry Charles</button>
@@ -66,9 +68,9 @@
 				<button class='next button' id='finish-1'>Calculate Score</button>
 				<br>
 				<div id='finish-3'><button class='next button' id='finish-2'>Calculate Score</button></div>
-			</div>
+			</div> -->
 
-		</div>
+
 
 		<!-- Ending for the winner   -->
 
