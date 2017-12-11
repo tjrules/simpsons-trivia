@@ -31,6 +31,7 @@ $(document).ready(() => {
 
     }
     createPlayers() {
+
       let name = $('#name-input').val()
       this.players.push(new Player(name))
       $('.players').append('<div>' + this.players[this.players.length - 1].name + '</div>')
@@ -42,9 +43,11 @@ $(document).ready(() => {
 
     }
     startGame() {
+
       $('#start').hide();
       $('#question-1').show();
       console.log('click');
+    
     }
     rightAnswerOne() {
       $('.correct-answer').css('background-color', 'green');

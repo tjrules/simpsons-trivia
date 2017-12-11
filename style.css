@@ -2,6 +2,9 @@
   font-family: simpsons;
   src: url(simpsonfont/simpsonfont_demo.otf);
 }
+audio {
+display:;  
+}
 
 body {
   font-family: "simpsons", georgia, serif;
