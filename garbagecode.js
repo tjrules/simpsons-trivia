@@ -367,3 +367,8 @@
    //     console.log($("#question-box").text());
    //   }
    // $('#start-game').click(nextQuestion);
+   // wrongAnswer() {
+   //   $('.wrong-answer').css('background-color', 'red');
+   //   $('.correct-answer').css('background-color', 'green');
+   //   $('#next-1').show();
+   // }

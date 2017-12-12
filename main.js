@@ -9,9 +9,11 @@ $(document).ready(() => {
       // this.choices = choices;
       //this.discard = [];
       this.counter = 0;
+      this.currentRightAnswer = [];
       //  this.choices = choices;
       this.createPlayers = this.createPlayers.bind(this)
       this.startGame = this.startGame.bind(this)
+      this.checkAnswer = this.checkAnswer.bind(this)
       // this.checkAnswer = this.checkAnswer.bind(this)
       // this.createQuestion = this.createQuestion.bind(this)
     }
@@ -21,14 +23,15 @@ $(document).ready(() => {
       // Player Starts Game
       $('#start-game').click(this.startGame)
       // choosing answers
-      $('.correct-answer').click(this.rightAnswer)
+      $('.answer-button').click(this.checkAnswer);
+      // $('.correct-answer').click(this.rightAnswer)
       $('.wrong-answer').click(this.wrongAnswer)
       //next button
       $('#next').click(this.nextQuestion)
-      $('#finish-1').click(this.calculateScore)
+      $('#finish').click(this.calculateScore)
       $('#restart-1').click(this.restartOne)
       // $('#answer-wrapper').click(this.rightAnswer);
-      $('.answer-button').click(this.checkAnswer);
+
       $('#button1').click(this.rightAnswer);
     }
     createPlayers() {
@@ -47,42 +50,53 @@ $(document).ready(() => {
       $('#start').hide();
       $('#question-wrapper').show();
       this.newQuestion();
-
-
-
 }
+
     newQuestion(){
       let randomize = Math.trunc(Math.random() * 7);
       let answers = $('.answer-button');
+      let rightAnswer= qs[randomize].rightAnswer;
       let newQuest = qs[randomize].question;
+      // let currentRightAnswer = this.currentRightAnswer;
+// console.log(this);
+this.currentRightAnswer.push(rightAnswer)
+    // console.log(this.currentRightAnswer);
       $("#question-box").text(newQuest);
     for (let i = 0; i < qs[randomize].choices.length; i++) {
     $(answers[i]).text(qs[randomize].choices[i])
     }
 }
     // changing this to a chooseAnswer method
-    rightAnswer() {
-      $('#button1').css('background-color', 'green');
-      $('#next').show();
-      // console.log(this);
+    // rightAnswer() {
+    //   $('#button1').css('background-color', 'green');
+    //   $('#next').show();
+    //   // console.log(this);
+    // }
+    checkAnswer() {
+      let currentTarget = $(event.currentTarget).text()
+      let rightAnswer = this.currentRightAnswer[0]
+      // console.log('checkAnswer called');
+      // console.log($(this).text())
+      // console.log("the correct answer is " + this.currentRightAnswer);
+      if (currentTarget == rightAnswer) {
+        $(event.currentTarget).css('background-color', 'green');
+        this.counter++;
+        $('#next').show();
+        nextQuestion();
+      }else{
+        $(event.currentTarget).css('background-color', 'red');
+          $('#next').show();
+          nextQuestion();
+      }
     }
+
     nextQuestion(){
       this.newQuestion();
         $('#next').hide();
     }
-    // wrongAnswer() {
-    //   $('.wrong-answer').css('background-color', 'red');
-    //   $('.correct-answer').css('background-color', 'green');
-    //   $('#next-1').show();
-    // }
 
-    checkAnswer() {
-      console.log('checkAnswer called');
-      console.log($(this).text())
-      if ($(this).text() == $(this).text()) {
-        console.log('right answer clicked')
-      }
-    }
+
+
     wrongAnswer(){
 
     }
@@ -122,12 +136,26 @@ isClicked(){
     }
   }
   class Question {
+
     constructor(question, rightAnswer, choices) {
       this.question = question;
       this.rightAnswer = rightAnswer;
       this.choices = choices;
       this.correct = false;
+  //this.checkAnswer = this.checkAnswer.bind(this)
     }
+init(){
+  // $('.answer-button').click(this.checkAnswer);
+}
+
+    // checkAnswer() {
+    //   console.log('checkAnswer called');
+    //   console.log($(this).text())
+    //   console.log("the correct answer is " + this.rightAnswer);
+    //   if ($(this).text() == this.rightAnswer) {
+    //     console.log('right answer clicked')
+    //   }
+    // }
 
     isCorrect() {
       this.correct = true;
@@ -155,7 +183,11 @@ isClicked(){
   //calling game class
   const game = new Game()
   //initializing Game class to activate event listener to create player
+const question = new Question()
   game.init()
+  question.init()
+
+  // console.log(question.rightAnswer);
   //let score = 0;
   // $('start-game').on( 'click', function() {
   // console.log( "click" );
