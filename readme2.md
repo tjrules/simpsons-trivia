@@ -1,4 +1,4 @@
-### images 
+### images
 ## http://res.cloudinary.com/dftzmialt/image/upload/v1512672886/IMG_20171207_122527_nhrxrl.jpg
 ## http://res.cloudinary.com/dftzmialt/image/upload/v1512672886/IMG_20171207_122410_v48jox.jpg
 ## http://res.cloudinary.com/dftzmialt/image/upload/v1512672886/IMG_20171207_122527_nhrxrl.jpg
@@ -6,8 +6,8 @@
 ## http://res.cloudinary.com/dftzmialt/image/upload/v1512672886/IMG_20171207_122416_tsfdqr.jpg
 ## http://res.cloudinary.com/dftzmialt/image/upload/v1512673255/IMG_20171207_135912_dgmga3.jpg
 
-
-
+## slides
+https://docs.google.com/presentation/d/1RtVNMaEbnQiESBwmZuiFrhjYWSwtZpFWTQPR8aTPzg4/edit?usp=sharing
 
 
 ###### Simpson's Trivia Game
@@ -44,7 +44,7 @@
 
 
 ### Start Game
-## the game will start with a background of Springfield 
+## the game will start with a background of Springfield
 ## after a delay a wrapper div with a player input and submit button will be created
 ## player types in name
 ## pressing the submit/start game button will take the player to a new screen removing the current elements within the wrapper div
@@ -65,11 +65,11 @@
 ## the score from all the questions is tallied
 ## if the player's score is less the 7 then the player loses
 ## the prompt will say you lose, try again
-## then a retry button can be selected 
+## then a retry button can be selected
 ## the button will reset all values to zero and go back to the questions page
 
 #### Classes
-### Game - 
+### Game -
 ##Constructors (Create Game, Create Start Game, Create Questions, Create Answers, Create Finish Game, Submit Form, )
 
 ### Questions
@@ -80,7 +80,7 @@
 
 ### Images...Probably would be a bonus class
 
-#### Methods 
+#### Methods
 ### Create Board
 ### Start Game
 ### Change Question
@@ -89,9 +89,6 @@
 
 
 ####my current issues
-## Do I have to create each individual element (most of my elements are different so I don't think a loop would work, except for the answer squares) that I want to display? Or can I grab a parent div and create all of the content within it? 
+## Do I have to create each individual element (most of my elements are different so I don't think a loop would work, except for the answer squares) that I want to display? Or can I grab a parent div and create all of the content within it?
 ## Still having a hard time wrapping head around class calling?
 ##
-
- 
-
