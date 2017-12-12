@@ -2,8 +2,9 @@
   font-family: simpsons;
   src: url(simpsonsfont/simpsonfont.ttf);
 }
+
 audio {
-display:;
+  display: ;
 }
 
 body {
@@ -13,7 +14,9 @@ body {
   background-size: auto;
   z-index: 0;
   position: static;
+  letter-spacing: .05em;
   word-spacing: .5em;
+  line-height: 2.5em;
 }
 
 p {
@@ -74,7 +77,19 @@ input {
   flex-direction: column;
 }
 
+.finish-win {
+  padding: 50px;
+}
+
+.finish-lose {
+  padding: 50px;
+}
+
 .answer {
+  padding: 10px;
+}
+
+.gif {
   padding: 10px;
 }
 
@@ -126,10 +141,9 @@ input {
   display: none;
 }
 
-#question-wrapper{
+#question-wrapper {
   display: none;
 }
-
 
 #question-2 {
   display: none;
@@ -139,7 +153,7 @@ input {
   display: none;
 }
 
-#next{
+#next {
   display: none;
 }
 
@@ -163,13 +177,14 @@ input {
   display: none;
 }
 
-#restart-1{
+#restart-1 {}
 
+#restart-2 {}
+
+#finish-3 {
+  display: none;
 }
-#restart-2{
 
-}
-
-#finish-3{
-	display: none;
+#finish-wrapper {
+  display: none;
 }
