@@ -75,9 +75,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Styling | H | 8hrs| 8hrs | 8hrs |
-| Create Start Game with input and submit| H | 2hrs| 5hrs | 5hrs |
-| Create Questions | H | 10hrs| 12hrs | hrs |
-| Create Finish with win/lose and reset | H | 4hrs| 03hrs | 3hrs |
+| Create Start Game with input and submit| H | 2hrs| 5hrs | 8hrs |
+| Create Questions | H | 10hrs| 12hrs | 20hrs |
+| Create Finish with win/lose and reset | H | 4hrs| 04hrs | 4hrs |
+| Figure Out Classes | H | 10hrs| 12hrs | 20hrs |
 
 ## Helper Functions
 Helper functions should be generic enough that they can be reused in other applications. Use this section to document all helper functions that fall into this category.
