@@ -341,3 +341,29 @@
    //   console.log('working');
    // })
    // this.counter++;
+   // let discard = [];
+   // const nextQuestion = function showTheNextQuestion() {
+   // $('.answer[0]').each(() => )
+   // question.choices loop
+   //   .html
+   //loop through choices
+   // let randomQuestion = Math.trunc(Math.random() * 8);
+   // if (discard.indexOf(randomQuestion) == -1) {
+   //   discard.push(randomQuestion);
+   //   nextQuestion();
+   //   return;
+   // }
+   // let newQuest = qs[randomQuestion].question;
+   // let answerOne = qs[randomQuestion].rightAnswer;
+   // let answerTwo = qs[randomQuestion].wrongAnswer1;
+   // let answerThree = qs[randomQuestion].wrongAnswer2;
+   // let answerFour = qs[randomQuestion].wrongAnswer3;
+   // $("#question-box").text(newQuest);
+   // $('#answer-1').text(answerOne);
+   // $('#answer-2').text(answerTwo);
+   // $('#answer-3').text(answerThree);
+   // $('#answer-4').text(answerFour);
+   //     console.log(qs[randomQuestion].question);
+   //     console.log($("#question-box").text());
+   //   }
+   // $('#start-game').click(nextQuestion);

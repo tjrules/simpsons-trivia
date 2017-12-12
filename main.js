@@ -12,6 +12,7 @@ $(document).ready(() => {
       //  this.choices = choices;
       this.createPlayers = this.createPlayers.bind(this)
       this.startGame = this.startGame.bind(this)
+      // this.checkAnswer = this.checkAnswer.bind(this)
       // this.createQuestion = this.createQuestion.bind(this)
     }
     init() {
@@ -23,10 +24,12 @@ $(document).ready(() => {
       $('.correct-answer').click(this.rightAnswer)
       $('.wrong-answer').click(this.wrongAnswer)
       //next button
-      $('#next-1').click(this.nextQuestionOne)
+      $('#next').click(this.nextQuestion)
       $('#finish-1').click(this.calculateScore)
       $('#restart-1').click(this.restartOne)
-      $('#answer-wrapper').click(this.rightAnswer);
+      // $('#answer-wrapper').click(this.rightAnswer);
+      $('.answer-button').click(this.checkAnswer);
+      $('#button1').click(this.rightAnswer);
     }
     createPlayers() {
       let name = $('#name-input').val()
@@ -49,46 +52,51 @@ $(document).ready(() => {
 
 }
     newQuestion(){
-      let randomize = Math.trunc(Math.random() * 8);
-
+      let randomize = Math.trunc(Math.random() * 7);
       let answers = $('.answer-button');
       let newQuest = qs[randomize].question;
-      let ranAns = qs[randomize].choices;
       $("#question-box").text(newQuest);
-      console.log(ranAns);
-
     for (let i = 0; i < qs[randomize].choices.length; i++) {
-
-    console.log(qs[randomize].choices[i])
     $(answers[i]).text(qs[randomize].choices[i])
-
     }
 }
     // changing this to a chooseAnswer method
-    // rightAnswer() {
-    //   $('.correct-answer').css('background-color', 'green');
-    //   $('#next-1').show();
-    //   console.log(this);
-    // }
+    rightAnswer() {
+      $('#button1').css('background-color', 'green');
+      $('#next').show();
+      // console.log(this);
+    }
+    nextQuestion(){
+      this.newQuestion();
+        $('#next').hide();
+    }
     // wrongAnswer() {
     //   $('.wrong-answer').css('background-color', 'red');
     //   $('.correct-answer').css('background-color', 'green');
     //   $('#next-1').show();
     // }
 
-    rightAnswer() {
-
+    checkAnswer() {
+      console.log('checkAnswer called');
+      console.log($(this).text())
+      if ($(this).text() == $(this).text()) {
+        console.log('right answer clicked')
+      }
     }
     wrongAnswer(){
 
     }
-    nextQuestion() {
-      $('#question-2').show();
-      $('#question-1').hide();
-      $('#next-2').hide();
-      $('.correct-answer').css('background-color', 'yellow');
-      $('.wrong-answer').css('background-color', 'yellow');
-    }
+    // nextQuestion() {
+    //   $('#question-2').show();
+    //   $('#question-1').hide();
+    //   $('#next-2').hide();
+    //   $('.correct-answer').css('background-color', 'yellow');
+    //   $('.wrong-answer').css('background-color', 'yellow');
+    // }
+
+isClicked(){
+
+}
 
 
     calculateScore() {
@@ -141,34 +149,8 @@ $(document).ready(() => {
 
     new Question("What is the presumed real name of Bumblebee Man? ", "Pedro", ["Pedro", "Lloyd", "Juan", "Jeff"]),
 
-    new Question("What is Homer's catchphrase?", "D'oh", ["Eat My Shorts", "Aye Caramba", "That's Illogical"])
+  //  new Question("What is Homer's catchphrase?", "D'oh", ["Eat My Shorts", "Aye Caramba", "That's Illogical"])
   ];
-  // let discard = [];
-  // const nextQuestion = function showTheNextQuestion() {
-  // $('.answer[0]').each(() => )
-  // question.choices loop
-  //   .html
-  //loop through choices
-  // let randomQuestion = Math.trunc(Math.random() * 8);
-  // if (discard.indexOf(randomQuestion) == -1) {
-  //   discard.push(randomQuestion);
-  //   nextQuestion();
-  //   return;
-  // }
-  // let newQuest = qs[randomQuestion].question;
-  // let answerOne = qs[randomQuestion].rightAnswer;
-  // let answerTwo = qs[randomQuestion].wrongAnswer1;
-  // let answerThree = qs[randomQuestion].wrongAnswer2;
-  // let answerFour = qs[randomQuestion].wrongAnswer3;
-  // $("#question-box").text(newQuest);
-  // $('#answer-1').text(answerOne);
-  // $('#answer-2').text(answerTwo);
-  // $('#answer-3').text(answerThree);
-  // $('#answer-4').text(answerFour);
-  //     console.log(qs[randomQuestion].question);
-  //     console.log($("#question-box").text());
-  //   }
-  // $('#start-game').click(nextQuestion);
 
   //calling game class
   const game = new Game()
